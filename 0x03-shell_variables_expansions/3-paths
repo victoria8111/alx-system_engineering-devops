@@ -1,3 +1,2 @@
 #!/bin/bash
-echo /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin | tr -s "
 echo /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin | tr -s ":" "\n" | wc -l
